@@ -30,6 +30,8 @@
       <li> Módulo <strong>matplotlib</strong>. </li>      
      </ul> -->
 
+<h2> Ambiente Virtual </h2>
+
 ```bash
 # Clone este repositório
 $ git clone https://github.com/cleidsonsouza/desafio-brasilprev.git
@@ -45,6 +47,21 @@ $ pip install -r requirements.txt
 
 # Execute o projeto
 $ python3 app.py
+```
+
+<h2> Docker </h2>
+```bash
+# Clone este repositório
+$ git clone https://github.com/cleidsonsouza/desafio-brasilprev.git
+
+# Acesse a pasta do projeto
+$ cd desafio-brasilprev
+
+# Crie a imagem
+$ docker build . -t brasilprev
+
+# Execute o projeto
+$ docker container run -ti -p 8080:8080 brasilprev
 ```
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Como contribuir <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->  
