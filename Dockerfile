@@ -21,4 +21,4 @@ ENV MONGO_HOST mongodb
 ENV REDIS_HOST redis
 ENV MEMCACHE_HOST "memcache:11211"
 
-CMD ["python", "app/codigo/app.py"]
+CMD ["python", "/app/codigo/app.py"]
