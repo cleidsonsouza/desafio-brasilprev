@@ -30,7 +30,7 @@
       <li> Módulo <strong>matplotlib</strong>. </li>      
      </ul> -->
 
-<h2> Ambiente Virtual </h2>
+<h3> Ambiente Virtual </h3>
 
 ```bash
 # Clone este repositório
@@ -49,7 +49,8 @@ $ pip install -r requirements.txt
 $ python3 app.py
 ```
 
-<h2> Docker </h2>
+<h3> Docker </h3>
+
 ```bash
 # Clone este repositório
 $ git clone https://github.com/cleidsonsouza/desafio-brasilprev.git
