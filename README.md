@@ -62,7 +62,7 @@ $ cd desafio-brasilprev
 $ docker build . -t brasilprev
 
 # Execute o projeto
-$ docker container run -ti -p 8080:8080 brasilprev
+$ docker container run brasilprev
 ```
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Como contribuir <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->  
